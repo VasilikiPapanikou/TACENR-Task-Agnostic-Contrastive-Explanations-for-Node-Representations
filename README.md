@@ -4,3 +4,4 @@ Graph representation learning has achieved notable success in encoding graph-str
 TACENR builds on contrastive learning, through which we learn a similarity function in the representation space, revealing which are the features that play an important role in the representation of a node. 
 While our focus is on task-agnostic explanations, TACENR can be applied to supervised scenarios as well. Experimental results demonstrate that proximity and structural features play a significant role in shaping node representations and that our supervised variant performs comparably to existing task-specific approaches in identifying the most impactful features. 
 
+<img width="3127" height="845" alt="pipeline_TACENR" src="https://github.com/user-attachments/assets/6e0b59fe-d110-4eca-8faa-57d4c7d157d8" />
