@@ -1,0 +1,29 @@
+{
+  "dataset": "Pubmed",
+  "method": "GCN",
+  "embedding_dim": 64,
+  "num_nodes": 19717,
+  "num_features": 500,
+  "num_classes": 3,
+  "best": {
+    "epoch": 50,
+    "val_acc": 0.814,
+    "test_at_best_val": 0.769,
+    "median_epoch_time_sec": 0.0038084983825683594
+  },
+  "final_eval": {
+    "train_acc": 1.0,
+    "val_acc": 0.814,
+    "test_acc": 0.769
+  },
+  "hyperparams": {
+    "hidden_channels": 64,
+    "dropout": 0.6,
+    "lr": 0.01,
+    "weight_decay_conv": 0.0005,
+    "weight_decay_out": 0.0005,
+    "max_epochs": 100,
+    "patience": 30,
+    "seed_base": 42
+  }
+}

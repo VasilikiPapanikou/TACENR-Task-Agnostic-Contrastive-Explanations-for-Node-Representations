@@ -1,0 +1,29 @@
+{
+  "dataset": "BAShapes",
+  "method": "GCN",
+  "embedding_dim": 64,
+  "num_nodes": 700,
+  "num_features": 16,
+  "num_classes": 4,
+  "best": {
+    "epoch": 1,
+    "val_acc": 0.37142857142857144,
+    "test_at_best_val": 0.4785714285714286,
+    "median_epoch_time_sec": 0.0026705265045166016
+  },
+  "final_eval": {
+    "train_acc": 0.430952380952381,
+    "val_acc": 0.37142857142857144,
+    "test_acc": 0.4785714285714286
+  },
+  "hyperparams": {
+    "hidden_channels": 64,
+    "dropout": 0.5,
+    "lr": 0.005,
+    "weight_decay_conv": 0.005,
+    "weight_decay_out": 0.0005,
+    "max_epochs": 200,
+    "patience": 30,
+    "seed_base": 42
+  }
+}

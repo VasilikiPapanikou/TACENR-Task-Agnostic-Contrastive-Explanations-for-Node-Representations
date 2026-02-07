@@ -1,0 +1,29 @@
+{
+  "dataset": "PPI",
+  "method": "GCN",
+  "embedding_dim": 64,
+  "num_nodes": 3480,
+  "num_features": 50,
+  "num_classes": 2,
+  "best": {
+    "epoch": 2,
+    "val_acc": 0.8649425287356322,
+    "test_at_best_val": 0.8477011494252874,
+    "median_epoch_time_sec": 0.009261846542358398
+  },
+  "final_eval": {
+    "train_acc": 0.8803879310344828,
+    "val_acc": 0.8649425287356322,
+    "test_acc": 0.8477011494252874
+  },
+  "hyperparams": {
+    "hidden_channels": 64,
+    "dropout": 0.5,
+    "lr": 0.01,
+    "weight_decay_conv": 0.0005,
+    "weight_decay_out": 0.0005,
+    "max_epochs": 200,
+    "patience": 50,
+    "seed_base": 42
+  }
+}

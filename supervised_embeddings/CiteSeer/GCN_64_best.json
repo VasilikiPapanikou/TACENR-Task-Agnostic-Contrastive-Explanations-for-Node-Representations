@@ -1,0 +1,29 @@
+{
+  "dataset": "CiteSeer",
+  "method": "GCN",
+  "embedding_dim": 64,
+  "num_nodes": 2120,
+  "num_features": 3703,
+  "num_classes": 6,
+  "best": {
+    "epoch": 29,
+    "val_acc": 0.7682926829268293,
+    "test_at_best_val": 0.7043740573152338,
+    "median_epoch_time_sec": 0.0029993057250976562
+  },
+  "final_eval": {
+    "train_acc": 0.95,
+    "val_acc": 0.7682926829268293,
+    "test_acc": 0.7043740573152338
+  },
+  "hyperparams": {
+    "hidden_channels": 64,
+    "dropout": 0.5,
+    "lr": 0.01,
+    "weight_decay_conv": 0.0005,
+    "weight_decay_out": 0.0005,
+    "max_epochs": 200,
+    "patience": 50,
+    "seed_base": 42
+  }
+}

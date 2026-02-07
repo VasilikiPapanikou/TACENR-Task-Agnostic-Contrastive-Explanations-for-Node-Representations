@@ -1,0 +1,29 @@
+{
+  "dataset": "BlogCatalog",
+  "method": "GCN",
+  "embedding_dim": 64,
+  "num_nodes": 5196,
+  "num_features": 8189,
+  "num_classes": 6,
+  "best": {
+    "epoch": 17,
+    "val_acc": 0.2435033686236766,
+    "test_at_best_val": 0.21923076923076923,
+    "median_epoch_time_sec": 0.007837533950805664
+  },
+  "final_eval": {
+    "train_acc": 0.23516201475777992,
+    "val_acc": 0.2435033686236766,
+    "test_acc": 0.21923076923076923
+  },
+  "hyperparams": {
+    "hidden_channels": 64,
+    "dropout": 0.6,
+    "lr": 0.005,
+    "weight_decay_conv": 0.0005,
+    "weight_decay_out": 0.0005,
+    "max_epochs": 100,
+    "patience": 30,
+    "seed_base": 42
+  }
+}

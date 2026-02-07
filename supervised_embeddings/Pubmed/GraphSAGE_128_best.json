@@ -1,0 +1,23 @@
+{
+  "best": {
+    "epoch": 54,
+    "val_acc": 0.804,
+    "test_at_best_val": 0.78,
+    "median_epoch_time_sec": 0.006667375564575195
+  },
+  "final_eval": {
+    "train_acc": 1.0,
+    "val_acc": 0.804,
+    "test_acc": 0.78
+  },
+  "hyperparams": {
+    "hidden_channels": 128,
+    "dropout": 0.6,
+    "lr": 0.01,
+    "weight_decay_conv": 0.001,
+    "weight_decay_out": 0.0005,
+    "max_epochs": 100,
+    "patience": 30,
+    "seed_base": 42
+  }
+}

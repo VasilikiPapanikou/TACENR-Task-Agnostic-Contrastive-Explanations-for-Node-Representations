@@ -1,0 +1,29 @@
+{
+  "dataset": "Cora",
+  "method": "GCN",
+  "embedding_dim": 64,
+  "num_nodes": 2485,
+  "num_features": 1433,
+  "num_classes": 7,
+  "best": {
+    "epoch": 94,
+    "val_acc": 0.8169934640522876,
+    "test_at_best_val": 0.8087431693989071,
+    "median_epoch_time_sec": 0.003092527389526367
+  },
+  "final_eval": {
+    "train_acc": 1.0,
+    "val_acc": 0.8169934640522876,
+    "test_acc": 0.8087431693989071
+  },
+  "hyperparams": {
+    "hidden_channels": 64,
+    "dropout": 0.5,
+    "lr": 0.01,
+    "weight_decay_conv": 0.0005,
+    "weight_decay_out": 0.0005,
+    "max_epochs": 200,
+    "patience": 50,
+    "seed_base": 42
+  }
+}
