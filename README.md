@@ -15,3 +15,5 @@ While our focus is on task-agnostic explanations, TACENR can be applied to super
 - unsupervised_embeddings/: Precomputed supervised embeddings stored for all datasets and models.
 - aopc_metric.ipynb: Notebook for calculating AOPC metric.
 - aopc_visualization_all_models_datasets.ipynb: Notebook for generating AOPC plots across all models and datasets.
+- noisy_features.ipynb: Notebook for calculating importances after adding noisy features.
+- noisy_features_visualization_all_models_datasets.ipynb: Notebook for generating AOPC plots across all models and datasets.
