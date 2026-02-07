@@ -9,5 +9,9 @@ While our focus is on task-agnostic explanations, TACENR can be applied to super
 
 ### Repository Structure:
 
-- src/ : Contains all Python scripts for loading datasets and generating explanations using the TACENR explainer.
-- data/ : Contains the datasets
+- src/: Contains all Python scripts for loading datasets and generating explanations using the TACENR explainer.
+- data/: Contains the datasets
+- supervised_embeddings/: Precomputed supervised embeddings stored for all datasets and models.
+- unsupervised_embeddings/: Precomputed supervised embeddings stored for all datasets and models.
+- aopc_metric.ipynb: Notebook for calculating AOPC metric.
+- aopc_visualization_all_models_datasets.ipynb: Notebook for generating AOPC plots across all models and datasets.
