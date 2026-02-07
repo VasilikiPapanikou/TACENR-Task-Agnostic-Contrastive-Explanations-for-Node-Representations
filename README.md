@@ -11,3 +11,19 @@ While our focus is on task-agnostic explanations, TACENR can be applied to super
 
 - src/ : Contains all Python scripts for loading datasets and generating explanations using the TACENR explainer.
 - data/ : Contains the datasets
+
+
+├── src/
+│   └── Python scripts for TACENR, dataset loading, and explanation generation
+│
+├── supervised_embeddings/
+│   └── Supervised embedding experiments and results
+│
+├── unsupervised_embeddings/
+│   └── Unsupervised embedding experiments and results
+│
+├── aopc_visualization_all_models_datasets.ipynb
+│     Notebook for generating AOPC plots across all models and datasets
+│
+├── explain_node_representations.ipynb
+│     Notebook for explaining node representations using TACENR
