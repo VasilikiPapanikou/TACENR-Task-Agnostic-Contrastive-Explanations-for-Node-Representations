@@ -5,3 +5,9 @@ TACENR builds on contrastive learning, through which we learn a similarity funct
 While our focus is on task-agnostic explanations, TACENR can be applied to supervised scenarios as well. Experimental results demonstrate that proximity and structural features play a significant role in shaping node representations and that our supervised variant performs comparably to existing task-specific approaches in identifying the most impactful features. 
 
 <img width="3127" height="845" alt="pipeline_TACENR" src="https://github.com/user-attachments/assets/6e0b59fe-d110-4eca-8faa-57d4c7d157d8" />
+
+
+### Repository Structure:
+
+- src/ : Contains all Python scripts for loading datasets and generating explanations using the TACENR explainer.
+- data/ : Contains the datasets
